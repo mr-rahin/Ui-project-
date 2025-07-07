@@ -1,0 +1,50 @@
+@font-face {
+    font-family: 'Yekan';
+    src: url('../../../../../public/assets/Font/Yekan-Font-3.0/Yekan.eot');
+    src: url('../../../../../public/assets/Font/Yekan-Font-3.0/Yekan.eot?#iefix') format('embedded-opentype'),
+    url('../../../../../public/assets/Font/Yekan-Font-3.0/Yekan.woff2') format('woff2'),
+    url('../../../../../public/assets/Font/Yekan-Font-3.0/Yekan.woff') format('woff'),
+       url('../../../../../public/assets/Font/Yekan-Font-3.0/Yekan.otf') format('opentype'),
+       url('../../../../../public/assets/Font/Yekan-Font-3.0/Yekan.ttf ') format('truetype');
+       font-weight: normal;
+       font-style: normal;
+       font-display: swap;
+    }
+    
+.yekan-bakh{
+        
+        font-family: 'Yekan';
+        background-color: white;
+        border: none;
+
+        border-radius: 5px;
+        cursor: pointer;
+        height: 38px;
+        position: relative;
+        font-size: 18px;
+  color: #43454D;
+
+    }
+.yekan-bakh span{
+    position: relative;
+    top: -4px;
+    left: -2px;
+    color:#43454D;
+;
+    font-size: 16px;
+}
+.search{
+    background-color: #664BFA;
+    border: none;
+    cursor: pointer;
+
+    
+}
+.arrow-slider{
+    border: none;
+    border-radius: 50%;
+    width: fit-content;
+    height: fit-content;
+    background-color: aliceblue;
+
+}

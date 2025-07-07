@@ -1,0 +1,72 @@
+
+@font-face {
+  font-family: 'Yekan';
+  src: url('../../../../../public/assets/Font/Yekan-Font-3.0/Yekan.eot');
+  src: url('../../../../../public/assets/Font/Yekan-Font-3.0/Yekan.eot?#iefix') format('embedded-opentype'),
+       url('../../../../../public/assets/Font/Yekan-Font-3.0/Yekan.woff2') format('woff2'),
+       url('../../../../../public/assets/Font/Yekan-Font-3.0/Yekan.woff') format('woff'),
+       url('../../../../../public/assets/Font/Yekan-Font-3.0/Yekan.otf') format('opentype'),
+       url('../../../../../public/assets/Font/Yekan-Font-3.0/Yekan.ttf') format('truetype');
+  font-weight: normal;
+  font-style: normal;
+  font-display: swap;
+}
+
+.search-select-selected {
+  background-color: #fff;
+  border-radius: 6px;
+  padding: 8px 12px;
+  cursor: pointer;
+  font-size: 14px;
+
+  font-family: 'Yekan';
+  position: relative;
+}
+
+.search-select-dropdown {
+  
+  position: absolute;
+  background-color: white;
+  border-radius: 6px;
+  width: 90px;
+  width: max-content;
+  margin-top: 5px;
+  list-style: none;
+  overflow-y: auto;
+  
+}
+.search-select-dropdown:hover{
+    z-index: 5;
+
+}
+
+.search-option {
+  padding: 8px 12px;
+  margin-left: -50px;
+
+  cursor: pointer;
+  width: 100px;
+  direction: ltr;
+  font-size: 14px;
+  transition: background-color 0.2s ease-in-out;
+}
+
+.search-option:hover {
+  background-color: #7B63FF;
+  color: #fff;
+}
+.search-select {
+  position: relative;
+}
+
+.search-select-icon{
+  position: relative;
+  top: 5px;
+  left: -10px;
+}
+.up{
+  rotate: 180deg;
+}
+.down{
+  rotate: 0deg;
+}

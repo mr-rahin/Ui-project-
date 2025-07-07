@@ -1,0 +1,11 @@
+.search-option {
+    padding: 10px;
+    font-size: 14px;
+    text-align: right;
+    cursor: pointer;
+    transition: background-color 0.2s;
+}
+
+.search-option:hover {
+    background-color: #eee;
+}

@@ -1,0 +1,78 @@
+@font-face {
+  font-family: 'Yekan';
+  src: url('../../../../../public/assets/Font/Yekan-Font-3.0/Yekan.eot');
+  src: url('../../../../../public/assets/Font/Yekan-Font-3.0/Yekan.eot?#iefix') format('embedded-opentype'),
+       url('../../../../../public/assets/Font/Yekan-Font-3.0/Yekan.woff2') format('woff2'),
+       url('../../../../../public/assets/Font/Yekan-Font-3.0/Yekan.woff') format('woff'),
+       url('../../../../../public/assets/Font/Yekan-Font-3.0/Yekan.otf') format('opentype'),
+       url('../../../../../public/assets/Font/Yekan-Font-3.0/Yekan.ttf') format('truetype');
+  font-weight: normal;
+  font-style: normal;
+  font-display: swap;
+}
+input:focus{
+    border: none;
+    outline: none;
+}
+.search-input{
+    width: 162px;
+    /* height: 26px; */
+    position: relative;
+    width: 60%;
+    font-size: 17px;
+    border: none;
+    font-family: "Yekan";
+    
+
+
+}
+.search-input-En{                                                                                                                                                                               
+    direction: ltr;                                                                                                                                                                             
+                                                                                                                                                                                
+}                                                                                                                                                                               
+.search-input-Pa{                                                                                                                                                                               
+    direction: rtl;                                                                                                                                                                             
+}                                                                                                                                                                               
+@font-face {
+  font-family: 'Yekan';
+  src: url('../../../../../public/assets/Font/Yekan-Font-3.0/Yekan.eot');
+  src: url('../../../../../public/assets/Font/Yekan-Font-3.0/Yekan.eot?#iefix') format('embedded-opentype'),
+       url('../../../../../public/assets/Font/Yekan-Font-3.0/Yekan.woff2') format('woff2'),
+       url('../../../../../public/assets/Font/Yekan-Font-3.0/Yekan.woff') format('woff'),
+       url('../../../../../public/assets/Font/Yekan-Font-3.0/Yekan.otf') format('opentype'),
+       url('../../../../../public/assets/Font/Yekan-Font-3.0/Yekan.ttf') format('truetype');
+  font-weight: normal;
+  font-style: normal;
+  font-display: swap;
+}
+input:focus{
+    border: none;
+    outline: none;
+}
+.search-input{
+    width: 162px;
+    /* height: 26px; */
+    position: relative;
+    width: 60%;
+    font-size: 17px;
+    border: none;
+    font-family: "Yekan";
+    
+
+
+}
+.search-input-En{                                                                                                                                                                               
+    direction: ltr;                                                                                                                                                                             
+                                                                                                                                                                                
+}                                                                                                                                                                               
+.search-input-Pa{                                                                                                                                                                               
+    direction: rtl;                                                                                                                                                                             
+}                                                                                                                                                                               
+.search-input:placeholder-shown{                                                                                                                                                                                
+    font-family: 'Yekan';                                                                                                                                                                               
+    direction: rtl;                                                                                                                                                                             
+    font-weight: bold;                                                                                                                                      
+    color: #43454D;      
+    opacity: 1;                                                                             
+   font-size: 14px;
+}
