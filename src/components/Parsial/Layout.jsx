@@ -1,3 +1,4 @@
+import Routesc from "../Pages/Routesc"
 import Footer from "../Ui/organisms/footer/Footer"
 import Headers from "../Ui/organisms/Headers/Headers"
 

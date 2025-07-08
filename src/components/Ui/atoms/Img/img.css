@@ -8,3 +8,27 @@ img{
     padding: 20;
     width: 26px;
 }
+.cctv-camera{
+    width: 370px;
+    margin-left: 720px;
+    position: relative;
+    top: -280px;
+    z-index: 2;
+}
+.cctv-camera1{
+    width: 118px;
+    position: relative;
+    top: -570px;
+    left: -310px;
+    rotate: 45deg;
+    filter: blur(4px);
+
+}
+.cctv-camera2{
+    width: 200px;
+    position: relative;
+    top: -500px;
+    left: 1000px;
+    filter: blur(4px);
+
+}

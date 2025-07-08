@@ -1,31 +1,78 @@
-p{
+@font-face {
+    font-family: "Maneli";
+    src: url("https://db.onlinewebfonts.com/t/048d796e38af6fe158614d528247b367.eot");
+    src: url("https://db.onlinewebfonts.com/t/048d796e38af6fe158614d528247b367.eot?#iefix")format("embedded-opentype"),
+        url("https://db.onlinewebfonts.com/t/048d796e38af6fe158614d528247b367.woff2")format("woff2"),
+        url("https://db.onlinewebfonts.com/t/048d796e38af6fe158614d528247b367.woff")format("woff"),
+        url("https://db.onlinewebfonts.com/t/048d796e38af6fe158614d528247b367.ttf")format("truetype"),
+        url("https://db.onlinewebfonts.com/t/048d796e38af6fe158614d528247b367.svg#Maneli")format("svg");
+}
+
+@font-face {
+    font-family: 'Yekan';
+    src: url('../../../../../public/assets/Font/Yekan-Font-3.0/Yekan.eot');
+    src: url('../../../../../public/assets/Font/Yekan-Font-3.0/Yekan.eot?#iefix') format('embedded-opentype'),
+        url('../../../../../public/assets/Font/Yekan-Font-3.0/Yekan.woff2') format('woff2'),
+        url('../../../../../public/assets/Font/Yekan-Font-3.0/Yekan.woff') format('woff'),
+        url('../../../../../public/assets/Font/Yekan-Font-3.0/Yekan.otf') format('opentype'),
+        url('../../../../../public/assets/Font/Yekan-Font-3.0/Yekan.ttf') format('truetype');
+    font-weight: normal;
+    font-style: normal;
+    font-display: swap;
+}
+
+p {
     margin: 0;
     padding: 0;
     font-size: 15px;
 }
-.logo-style{
-font-family: "Inter";
-width: 106px;
-height: 45px;
-position: absolute;
-top: 125px;
-left: 1234px;
-opacity: 1;
-font-family: Inter;
-font-weight: 700;
-font-style: Bold;
-font-size: 36.87px;
-line-height: 100%;
-letter-spacing: 0%;
-vertical-align: middle;
-color:  #664BFA;
+
+.logo-style {
+    font-family: "Inter";
+    width: 106px;
+    height: 45px;
+    position: absolute;
+    top: 125px;
+    left: 1234px;
+    opacity: 1;
+    font-family: Inter;
+    font-weight: 700;
+    font-style: Bold;
+    font-size: 36.87px;
+    line-height: 100%;
+    letter-spacing: 0%;
+    vertical-align: middle;
+    color: #664BFA;
 
 
 
 }
-.isActive{
+
+.isActive {
     color: #5F44F3;
     font-size: 16px !important;
     width: 100px;
-  
+
+}
+
+.maneli {
+    font-family: 'Maneli';
+}
+
+.camera-p {
+    font-size: 24px;
+    margin-top: 154px;
+    margin-left: 250px;
+    color: #FFFF;
+}
+
+.yekan {
+    font-family: 'yekan';
+}
+
+.camera-cctv {
+    font-weight: 800;
+    color: #FFFF;
+    font-size: 40px;
+    margin-left: 110px;
 }

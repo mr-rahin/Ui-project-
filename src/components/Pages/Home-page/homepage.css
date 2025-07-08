@@ -1,0 +1,42 @@
+
+@font-face {
+    font-family: "Maneli";
+    src: url("https://db.onlinewebfonts.com/t/048d796e38af6fe158614d528247b367.eot");
+    src: url("https://db.onlinewebfonts.com/t/048d796e38af6fe158614d528247b367.eot?#iefix")format("embedded-opentype"),
+    url("https://db.onlinewebfonts.com/t/048d796e38af6fe158614d528247b367.woff2")format("woff2"),
+    url("https://db.onlinewebfonts.com/t/048d796e38af6fe158614d528247b367.woff")format("woff"),
+    url("https://db.onlinewebfonts.com/t/048d796e38af6fe158614d528247b367.ttf")format("truetype"),
+    url("https://db.onlinewebfonts.com/t/048d796e38af6fe158614d528247b367.svg#Maneli")format("svg");
+}
+.camera-container{
+background-image: linear-gradient(to bottom, #7B63FF, #5C40F1);
+    position: absolute;
+    top: 550px;
+    left: 130px;
+    width: 1250px;
+    height: 470px;
+    border-radius: 20px;
+}
+.buy-icon{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    width: fit-content;
+    gap: 15px;
+    margin-left: 390px;
+    margin-top: 10px;
+ 
+}
+.buy-icon p{
+    color: #FFF;
+    font-weight: 600;
+    font-size: 40px;
+}
+.icon-arrow{
+
+  transition: all 0.3s ease-in-out;
+}
+.icon-arrow:hover{
+    cursor: pointer;
+    transform: translateX(-5px);
+}
