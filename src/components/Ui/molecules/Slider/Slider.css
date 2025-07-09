@@ -1,16 +1,16 @@
 
-@font-face {
-  font-family: 'Yekan';
-  src: url('../../../../../public/assets/Font/Yekan-Font-3.0/Yekan.eot');
-  src: url('../../../../../public/assets/Font/Yekan-Font-3.0/Yekan.eot?#iefix') format('embedded-opentype'),
-    url('../../../../../public/assets/Font/Yekan-Font-3.0/Yekan.woff2') format('woff2'),
-    url('../../../../../public/assets/Font/Yekan-Font-3.0/Yekan.woff') format('woff'),
-    url('../../../../../public/assets/Font/Yekan-Font-3.0/Yekan.otf') format('opentype'),
-    url('../../../../../public/assets/Font/Yekan-Font-3.0/Yekan.ttf') format('truetype');
-  font-weight: normal;
-  font-style: normal;
-  font-display: swap;
-}
+  @font-face {
+    font-family: 'Yekan';
+    src: url('../../../../../public/assets/Font/Yekan-Font-3.0/Yekan.eot');
+    src: url('../../../../../public/assets/Font/Yekan-Font-3.0/Yekan.eot?#iefix') format('embedded-opentype'),
+      url('../../../../../public/assets/Font/Yekan-Font-3.0/Yekan.woff2') format('woff2'),
+      url('../../../../../public/assets/Font/Yekan-Font-3.0/Yekan.woff') format('woff'),
+      url('../../../../../public/assets/Font/Yekan-Font-3.0/Yekan.otf') format('opentype'),
+      url('../../../../../public/assets/Font/Yekan-Font-3.0/Yekan.ttf') format('truetype');
+    font-weight: normal;
+    font-style: normal;
+    font-display: swap;
+  }
 .slide-cart-icon{
 width: 85px;
 height: 80px;
@@ -23,7 +23,7 @@ justify-content: center;
 /* border: 1px solid black; */
 
 }
-.slide-cart{
+.slide-cart{  
 width: 88px;
 height: 122px;
 

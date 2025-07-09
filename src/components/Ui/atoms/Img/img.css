@@ -10,7 +10,7 @@ img{
 }
 .cctv-camera{
     width: 370px;
-    margin-left: 720px;
+    margin-left: 790px;
     position: relative;
     top: -280px;
     z-index: 2;
@@ -28,7 +28,7 @@ img{
     width: 200px;
     position: relative;
     top: -500px;
-    left: 1000px;
+    left: 1060px;
     filter: blur(4px);
 
 }

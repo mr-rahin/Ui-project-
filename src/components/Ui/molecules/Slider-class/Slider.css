@@ -1,0 +1,84 @@
+@font-face {
+    font-family: 'Yekan';
+    src: url('../../../../../public/assets/Font/Yekan-Font-3.0/Yekan.eot');
+    src: url('../../../../../public/assets/Font/Yekan-Font-3.0/Yekan.eot?#iefix') format('embedded-opentype'),
+        url('../../../../../public/assets/Font/Yekan-Font-3.0/Yekan.woff2') format('woff2'),
+        url('../../../../../public/assets/Font/Yekan-Font-3.0/Yekan.woff') format('woff'),
+        url('../../../../../public/assets/Font/Yekan-Font-3.0/Yekan.otf') format('opentype'),
+        url('../../../../../public/assets/Font/Yekan-Font-3.0/Yekan.ttf') format('truetype');
+    font-weight: normal;
+    font-style: normal;
+    font-display: swap;
+}
+
+.grid {
+    display: flex;
+    gap: 20px;
+    padding: 20px;
+    direction: rtl;
+    position: absolute;
+    left: 50px;
+    height: fit-content;
+    width: fit-content;
+}
+
+.cart {
+    background-color: white;
+    border-radius: 16px;
+    padding: 20px;
+    box-shadow: 0 4px 12px rgba(0, 0, 0, 0.08);
+    text-align: center;
+    font-family: 'Yekan';
+    position: relative;
+    width: 220px;
+}
+
+
+
+.cart img {
+    width: 200px;
+    height: 200px;
+    object-fit: contain;
+    margin: 40px auto 20px;
+}
+
+.box2-container {
+    width: 340px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    height: 545px;
+    border-radius: 16px;
+    background-color: #FF3D3D;
+    position: relative;
+    left: 950px;
+    top: -72px;
+}
+.slider-image{
+    width: 220px;
+    height: 240px;
+    background-color: #FFF;
+    border-radius: 10px;
+    margin-top: 40px;
+    margin-left: 60px;
+}
+.slider-image img{
+    padding-top: 5px;
+    width: 220px;
+    height: 230px;
+
+}
+.rotate{
+    rotate: -180deg;
+}
+.left-arrow{
+    position: relative;
+    cursor: pointer;
+    top: 265px;
+    left: -18px;
+    width: fit-content;
+    height: fit-content;
+    background-color: transparent;
+    border: none;
+
+}

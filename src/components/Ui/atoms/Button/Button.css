@@ -48,3 +48,52 @@
     background-color: aliceblue;
 
 }
+.button-all{
+    display: flex;
+    gap: 5px;
+    font-size: 28px;
+    color: #7B63FF;
+    border: none;
+    font-weight: 600;
+    cursor: pointer;
+    background-color: #FFF;
+
+}
+.button-all svg{
+    padding-top: 6px;
+    transition: all 0.3s ease-in-out;
+    
+
+}
+.button-all:hover svg{
+    transform: translateX(-5px);
+}
+
+
+.add-btn {
+  background-color: #7B63FF;
+  color: white;
+  font-family: 'Yekan';
+  border: none;
+  padding: 10px 20px;
+  border-radius: 12px;
+  font-size: 14px;
+  cursor: pointer;
+  transition: background-color 0.3s ease;
+}
+
+.add-btn:hover {
+  background-color: #8B5CF6;
+}
+.right-arrow{
+    position: relative;
+    top: -113px;
+    cursor: pointer;
+    left: 315px;
+    border: none;
+    width: fit-content;
+    height: fit-content;
+    background-color:transparent;
+    border-radius: 9999px;
+    
+}
