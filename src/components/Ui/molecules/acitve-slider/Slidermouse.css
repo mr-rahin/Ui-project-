@@ -1,0 +1,30 @@
+.grid1 {
+    display: flex;
+    gap: 20px;
+    padding: 20px;
+    direction: rtl;
+    position: absolute;
+    left: -25px;
+    height: fit-content;
+    width: fit-content;
+}
+
+.cart1 {
+    background-color: white;
+    border-radius: 16px;
+    padding: 20px;
+    box-shadow: 0 4px 12px rgba(0, 0, 0, 0.08);
+    text-align: center;
+    font-family: 'Yekan';
+    position: relative;
+    width: 235px;
+}
+
+
+
+.cart1 img {
+    width: 200px;
+    height: 200px;
+    object-fit: contain;
+    margin: 40px auto 20px;
+}

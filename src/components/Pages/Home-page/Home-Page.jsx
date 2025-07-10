@@ -8,11 +8,22 @@ import './homepage.css'
 import ChangeToFa from '../../../Hook/ChangeToFa'
 import GetDiscontAmmount from '../../../Hook/Discount'
 import { TimerComponent } from '../../../Hook/ChngeTimer'
+import Ui from '../../Ui/molecules/UL-nav/Nav'
+import Ul from '../../Ui/molecules/UL-nav/Nav'
+import Nav from '../../Ui/molecules/UL-nav/Nav'
+import SliderMouse from '../../Ui/molecules/acitve-slider/SlideMouse'
 function HomePage() {
     const imageList = [
         { id: 1, name: 'آیپد مینی ۲۰۲۱ ظرفیت ۶۴ گیگابایت', description: 'Apple Ipad Mini 2021 (wifi)', price: '54/200', discount: '%15', img: '../assets/images/image1.png' },
         { id: 2, name: 'آیپد مینی ۲۰۲۱ ظرفیت ۶۴ گیگابایت', description: 'Apple Ipad Mini 2021 (wifi)', price: '54/200', discount: '%15', img: '../assets/images/image2.png' },
         { id: 3, name: 'آیپد مینی ۲۰۲۱ ظرفیت ۶۴ گیگابایت', description: 'Apple Ipad Mini 2021 (wifi)', price: '54/200', discount: '%15', img: '../assets/images/image3.png' }
+    ]
+    const Slideritem = [
+        { id: 1, name: 'هدفون', svg: 'headphone', svg1: 'headphone1'},
+        { id: 2, name: 'دیتا پروژکتور', svg1: 'data-projector1',svg: 'data-projector' },
+        { id: 3, name: 'کامپیوتر', svg1: 'computer1',svg: 'computer' },
+        { id: 4, name: 'لپ تاپ', svg1: 'LopTop1', svg:'LopTop' },
+        { id: 5, name: 'دوربین', svg1: 'camera1', svg:'camera'},
     ]
     const time = [
         'روز',
@@ -118,8 +129,8 @@ function HomePage() {
                 </div>
                 <Img src={'./assets/images/smart-watch.png'} className={'smart-watch-img'} />
                 <div className="timer-counter">
-                    <TimerComponent  initialDay={2} initialHour={23} initialMinute={10} initialSeconds={55}/>
-                    {time.map((item)=>(
+                    <TimerComponent initialDay={2} initialHour={23} initialMinute={10} initialSeconds={55} />
+                    {time.map((item) => (
                         <div className='time-p'>
                             <P>{item}</P>
                         </div>
@@ -127,15 +138,12 @@ function HomePage() {
                 </div>
             </div>
             <div className="data-mouse">
-                <ul>
-                    <li ></li>
-                    <li></li>
-                    <li></li>
-                    <li></li>
-                    <li></li>
-                </ul>
+                <div className='nav-box-ul'>
+                    <Nav ArrayObj={Slideritem} />
+                    <SliderMouse/>
+                </div>
             </div>
-                
+
         </>
     )
 }

@@ -1,4 +1,6 @@
 
-function Li({className, children}){
-    return <li className={className}>{children}</li>
+function Li({className, children, onClick}){
+    return <li className={className} onClick={onClick}>{children}</li>
 }
+
+export default Li
