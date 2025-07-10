@@ -187,10 +187,11 @@ p {
     justify-content: center;
     align-items: center;
     border-radius: 5px;
-    width: 330px;
-    height: 45px;
-    background: linear-gradient(270deg, #7B63FF 72.4%, rgba(195, 184, 255, 0) 103.98%);
+    width: 350px;
+    height: 30px !important;
+    background-image: linear-gradient(270deg, #7B63FF 72.4%, rgba(195, 184, 255, 0) 103.98%);
     color: #FFF;
+    margin-left: -25px;
     font-weight: 0 !important;
     
 }
@@ -198,3 +199,37 @@ p {
     position: relative;
     left: 50px;
 }
+.advice-p{
+    height: 63px;
+    background-color: #FB3D3D;
+    border-radius: 0px 0px 15px 15px;
+    color: #FFF ;
+    width: 450px;
+    margin-left: 200px;
+    display: flex;
+    align-items: center;
+    gap: 5px;
+    font-size: 27px;
+    justify-content: center;
+}
+.advice-p span{
+    opacity: 0.6;
+}
+.smart-watch{
+    position: relative;
+    top: 140px;
+    left: -200px;
+    font-size: 19px;
+    font-weight: 600;
+    height: fit-content;
+}
+.new-money-timer{
+    position: relative;
+    left: -440px;
+    font-size: 23px;
+    direction: rtl;
+    display: flex;
+    width: fit-content;
+    justify-content: space-between;
+}
+
