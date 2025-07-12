@@ -13,24 +13,24 @@ function SliderMouse() {
     ]
     return (
         <>
-            <div className="grid1">
-                {list.map((item, index) => (
-                    <div key={index} className="cart1">
-                        {item.discount && (
-                            <>
-                                <P style={'discount1'}>
-                                    <ChangeToFa number={item.discount} />تخفیف
-                                </P>
-                            </>
-                        )}
-                        <Img src={item.img} className={'img-tablet'}/>
-                        <P style={'name'}>{item.name}</P>
-                        <P style="desc">{item.description}</P>
-                        <P style="price"><ChangeToFa number={item.price} />تومان</P>
-                        <Button style="add-btn">افزودن به سبد خرید</Button>
+                    <div className="grid1">
+                        {list.map((item, index) => (
+                            <div key={index} className="cart1">
+                                {item.discount && (
+                                    <>
+                                        <P style={'discount1'}>
+                                            <ChangeToFa number={item.discount} />تخفیف
+                                        </P>
+                                    </>
+                                )}
+                                <Img src={item.img} className={'img-tablet'}/>
+                                <P style={'name'}>{item.name}</P>
+                                <P style="desc">{item.description}</P>
+                                <P style="price"><ChangeToFa number={item.price} />تومان</P>
+                                <Button style="add-btn">افزودن به سبد خرید</Button>
+                            </div>
+                        ))}
                     </div>
-                ))}
-            </div>
             <div className="box3-container">
                 <P style={'yekan'}>جدیدترین محصولات دیجیتال</P>
                 <svg width="30" height="30" viewBox="0 0 30 30" fill="none" xmlns="http://www.w3.org/2000/svg">

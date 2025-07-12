@@ -1,5 +1,5 @@
 
-import { useState } from 'react'
+import React, { useState } from 'react'
 import Button from '../../Ui/atoms/Button/Button'
 import Img from '../../Ui/atoms/Img/Img'
 import P from '../../Ui/atoms/P/P'
@@ -64,6 +64,21 @@ function HomePage() {
         },
 
     ]
+    
+    const products = [
+        { id: 1, name: 'آیپد مینی ۲۰۲۱ ظرفیت ۶۴ گیگابایت', description: 'Apple Ipad Mini 2021 (wifi)', price: '54/200', discount: '%15', img: '../assets/images/image1.png' },
+        { id: 2, name: 'آیپد مینی ۲۰۲۱ ظرفیت ۶۴ گیگابایت', description: 'Apple Ipad Mini 2021 (wifi)', price: '54/200', discount: '%15', img: '../assets/images/Tablet.png' },
+        { id: 3, name: 'آیپد مینی ۲۰۲۱ ظرفیت ۶۴ گیگابایت', description: 'Apple Ipad Mini 2021 (wifi)', price: '54/200',  img: '../assets/images/Airpod.png' }
+        
+    ]
+    const pList= [
+        {id:1, title:'اپل'},
+        {id:2, title:'سامسونگ'},
+        {id:3, title:'شیائومی'},
+        {id:4, title:'هواوی'},
+        {id:5, title:'گوگل'},
+    ]
+    const [acitve,setActive] = useState(1)
     const [activeP, setActiveP] = useState(3)
     return (
         <>
@@ -176,8 +191,69 @@ function HomePage() {
 
             </div>
             <div className="data-box">
-                    <Img src={'../assets/images/projector-data.png'}/>
+                <Img src={'../assets/images/projector-data.png'} />
+                <Img src={'../assets/images/image5.png'} />
+                <div className="product-item">
+                    <P style={'yekan'}>انواع دیتا پروژکتور سینمکس</P>
+                    <svg width="40" height="40" viewBox="0 0 40 40" fill="none" xmlns="http://www.w3.org/2000/svg">
+                        <path opacity="0.4" d="M28.168 0L11.832 0C4.754 0 0 4.552 0 11.33L0 28.67C0 35.448 4.754 40 11.832 40L28.168 40C35.244 40 40 35.446 40 28.668L40 11.33C40 4.552 35.244 0 28.168 0Z" fill="white" />
+                        <path d="M18.2892 11.4411L10.7592 18.9371C10.1932 19.5011 10.1932 20.4991 10.7592 21.0651L18.2892 28.5611C18.8772 29.1451 19.8272 29.1431 20.4112 28.5551C20.9952 27.9671 20.9952 27.0191 20.4072 26.4331L15.4532 21.4991H28.1632C28.9932 21.4991 29.6632 20.8271 29.6632 19.9991C29.6632 19.1711 28.9932 18.4991 28.1632 18.4991L15.4532 18.4991L20.4072 13.5671C20.7012 13.2731 20.8472 12.8891 20.8472 12.5031C20.8472 12.1211 20.7012 11.7371 20.4112 11.4451C19.8272 10.8591 18.8772 10.8571 18.2892 11.4411Z" fill="white" />
+                    </svg>
+
+                </div>
             </div>
+            <div className="smart-box">
+                <div className="smart-sumsung">
+                    <P style={'yekan'}>ساعت هوشمند سامسونگ</P>
+                    <svg width="48" height="48" viewBox="0 0 48 48" fill="none" xmlns="http://www.w3.org/2000/svg">
+                        <path opacity="0.4" d="M32.168 4L15.832 4C8.754 4 4 8.552 4 15.33L4 32.67C4 39.448 8.754 44 15.832 44L32.168 44C39.244 44 44 39.446 44 32.668L44 15.33C44 8.552 39.244 4 32.168 4Z" fill="white" />
+                        <path d="M22.2892 15.4411L14.7592 22.9371C14.1932 23.5011 14.1932 24.4991 14.7592 25.0651L22.2892 32.5611C22.8772 33.1451 23.8272 33.1431 24.4112 32.5551C24.9952 31.9671 24.9952 31.0191 24.4072 30.4331L19.4532 25.4991H32.1632C32.9932 25.4991 33.6632 24.8271 33.6632 23.9991C33.6632 23.1711 32.9932 22.4991 32.1632 22.4991L19.4532 22.4991L24.4072 17.5671C24.7012 17.2731 24.8472 16.8891 24.8472 16.5031C24.8472 16.1211 24.7012 15.7371 24.4112 15.4451C23.8272 14.8591 22.8772 14.8571 22.2892 15.4411Z" fill="white" />
+                    </svg>
+                </div>
+                <Img src={'../assets/images/image6.png'} />
+                <Img src={'../assets/images/image07.png'} />
+            </div>
+            <div className="popular-watches-section">
+                <div className="popular-header yekan">
+                    <h3>پرفروش‌ترین ساعت های هوشمند</h3>
+                    <span className="see-all">
+                            مشاهده همه
+                        <svg width="21" height="17" viewBox="0 0 21 17" fill="none" xmlns="http://www.w3.org/2000/svg">
+                            <path d="M21 8.34867C21 8.81659 20.6409 9.20329 20.175 9.26449L20.0455 9.27293L3.26582 9.27219L9.3278 15.1179C9.70138 15.478 9.70268 16.0633 9.33071 16.425C8.99255 16.7538 8.46232 16.7848 8.08804 16.5171L7.98078 16.4278L0.280781 9.00412C0.231539 8.95665 0.188766 8.90526 0.152466 8.851C0.142214 8.83467 0.131777 8.81796 0.121881 8.80092C0.112782 8.78631 0.104557 8.77114 0.0967979 8.7558C0.0860214 8.73348 0.0754929 8.71042 0.0659351 8.6869C0.0581665 8.66876 0.0516815 8.65112 0.0457668 8.63333C0.0387344 8.61128 0.0319004 8.58778 0.0260239 8.56393C0.0216541 8.54727 0.0181942 8.53124 0.0151749 8.51514C0.010931 8.4912 0.00731659 8.46642 0.00473976 8.44134C0.00251198 8.42222 0.00117302 8.40327 0.000432968 8.38431C0.000240326 8.3728 0 8.36077 0 8.34867L0.000478745 8.31287C0.00121117 8.29473 0.00248909 8.2766 0.00431824 8.25852L0 8.34867C0 8.29035 0.00557899 8.23328 0.0162506 8.17795C0.0187244 8.16474 0.0216732 8.15117 0.0249386 8.13766C0.0317192 8.10984 0.0395546 8.08305 0.0485783 8.05678C0.0530071 8.04373 0.0581646 8.02979 0.0636787 8.01595C0.0748348 7.98813 0.0869579 7.96162 0.100296 7.9358C0.106493 7.92366 0.113432 7.91094 0.120699 7.89836C0.132627 7.87783 0.144917 7.85832 0.157911 7.83931C0.16708 7.82585 0.177233 7.81184 0.187834 7.79805L0.196095 7.7874C0.221811 7.75487 0.24971 7.72404 0.279579 7.69512L0.280725 7.69426L7.98072 0.269358C8.35427 -0.0908403 8.95865 -0.0896287 9.33065 0.272065C9.66884 0.600876 9.69854 1.11441 9.4205 1.47569L9.32786 1.57917L3.26836 7.42367L20.0455 7.42441C20.5726 7.42441 21 7.83822 21 8.34867Z" fill="#43454D" />
+                        </svg>
+                    </span>
+                </div>
+                <div className="grid2">
+                    {products.map((item, index) => (
+                        <div key={index} className="cart2">
+                            {item.discount && (
+                                <>
+                                    <P style={'discount'}>
+                                        <ChangeToFa number={item.discount} />تخفیف
+                                    </P>
+                                </>
+                            )}
+                            <Img src={item.img} className={'img-tablet'} />
+                            <P style={'name'}>{item.name}</P>
+                            <P style="desc">{item.description}</P>
+                            <P style="price"><ChangeToFa number={item.price} />تومان</P>
+                            <Button style="add-btn">افزودن به سبد خرید</Button>
+                        </div>
+                    ))}
+                </div>ّ
+                <div className="papular-watch-back">
+                    <P style={'yekan'}>ساعت هوشمند</P>
+                    {pList.map((item)=>(
+                        <React.Fragment>
+                            <P style={`yekan p-opacity ${acitve == item.id ? "p-active" : ''}`} onClick={()=> setActive(item.id)}>
+                                {item.title}
+                                <Icon action={`${item.id == acitve ? 'left-arrow' : ''}`} />    
+                            </P>
+                        </React.Fragment>
+                    ))}
+                </div>
+            </div>
+
 
         </>
     )

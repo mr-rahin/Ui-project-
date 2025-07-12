@@ -95,6 +95,11 @@ function Icon({ action }) {
             return <svg width="4" height="32" viewBox="0 0 4 32" fill="none" xmlns="http://www.w3.org/2000/svg">
                 <path d="M2 2L2 30" stroke="white" stroke-width="3" stroke-linecap="round" />
             </svg>
+        case 'left-arrow':
+            return <svg width="6" height="9" viewBox="0 0 6 9" fill="none" xmlns="http://www.w3.org/2000/svg">
+                <path d="M4.89607 0.480549C5.04383 0.628314 5.05727 0.859542 4.93637 1.02248L4.89607 1.06916L1.3059 4.65952L4.89607 8.24988C5.04383 8.39764 5.05727 8.62887 4.93637 8.79181L4.89607 8.83849C4.7483 8.98626 4.51708 8.99969 4.35413 8.87879L4.30745 8.83849L0.422789 4.95383C0.275024 4.80606 0.26159 4.57483 0.382489 4.41189L0.422789 4.36521L4.30745 0.480549C4.46999 0.318007 4.73353 0.318007 4.89607 0.480549Z" fill="#43454D" />
+            </svg>
+
 
 
 

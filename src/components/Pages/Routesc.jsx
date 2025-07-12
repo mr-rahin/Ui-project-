@@ -6,4 +6,4 @@ function Routesc() {
         <Route path='/' element={<HomePage/>} />
     </Routes>
 }
-export default Routesc
+export default Routesc      
