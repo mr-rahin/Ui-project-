@@ -18,12 +18,12 @@ function SliderMouse() {
                     <div key={index} className="cart1">
                         {item.discount && (
                             <>
-                                <P style={'discount'}>
+                                <P style={'discount1'}>
                                     <ChangeToFa number={item.discount} />تخفیف
                                 </P>
                             </>
                         )}
-                        <Img src={item.img} />
+                        <Img src={item.img} className={'img-tablet'}/>
                         <P style={'name'}>{item.name}</P>
                         <P style="desc">{item.description}</P>
                         <P style="price"><ChangeToFa number={item.price} />تومان</P>

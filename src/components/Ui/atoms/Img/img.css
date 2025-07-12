@@ -35,7 +35,11 @@ img{
 .smart-watch-img{
     position: relative;
     left: 800px;
-    top: -450px;
-    width: 260px;
-    height: 260px;
+    top: -440px;
+    width: 200px;
+    height: 240px;
+}
+.img-tablet{
+    position: relative;
+    top: -10px;
 }

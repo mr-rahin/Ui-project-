@@ -192,6 +192,8 @@ p {
     color: #FFF;
     margin-left: -25px;
     font-weight: 0 !important;
+    transition: all 0.2s ease-in;
+
     
 }
 .active-p svg{
@@ -231,4 +233,22 @@ p {
     width: fit-content;
     justify-content: space-between;
 }
-
+.discount1 {
+    background-color: #7B63FF;
+    color: white;
+    font-size: 15px;
+    padding: 5px 12px;
+    border-radius: 9px;
+    width: 80px;
+    position: absolute;
+    top: 35px;
+    z-index: 1;
+    left: 20px;
+}
+.cursor{
+    cursor: pointer;
+}
+.blue{
+    color: #49ADFF;
+    position: relative;
+    }
