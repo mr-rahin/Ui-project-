@@ -1,0 +1,97 @@
+.articl-box {
+  display: flex;
+  flex-wrap: wrap;
+  font-family: 'Yekan';
+  gap: 40px;
+  justify-content: center;
+  padding: 40px 20px;
+}
+
+.articles-flex {
+  direction: rtl;
+
+  display: flex;
+  flex-direction: column;
+  background-color: #fff;
+  border-radius: 12px;
+  box-shadow: 0 0 10px rgba(0, 0, 0, 0.05);
+  padding: 16px;
+  width: 350px;
+  position: relative;
+  transition: transform 0.3s ease;
+}
+
+.articles-flex:hover {
+  transform: translateY(-5px);
+}
+
+.articles-img img {
+  width: 100%;
+  transform: translateY(-50%);
+  height: auto;
+  border-radius: 8px;
+}
+
+.article-title {
+  font-weight: bold;
+  font-size: 23px;
+  margin-top:   12px;
+  position: relative;
+  top: -90px;
+  color: #333;
+}
+
+.article-date {
+    position: relative;
+    top: -70px;
+  font-size: 18px;
+  color: #7B63FF    ;
+  margin: 4px 0 8px;
+}
+.article-date span{
+    font-size: 27px !important;
+}
+.article-desc {
+    position: relative;
+    top: -50px;
+  font-size: 18px;
+  color: #43454D;
+  line-height: 1.6;
+  margin-bottom: 32px;
+}
+
+.icons-box {
+  display: flex;
+  align-items: center;
+  width: 90%;
+  gap: 10px;
+  justify-content: space-between;
+  position: absolute;
+  bottom: 16px;
+  right: 16px;
+}
+.icons-box svg:last-child{
+    transition: all 0.3s ease-in;
+    cursor: pointer;
+}
+.icons-box svg:last-child:hover{
+    transform: translateX(-5px);
+}
+
+.icons-box  span {
+  font-size: 14px;
+  color: #7b63ff;
+}
+.icons-box div:first-child{
+    display: flex;
+    gap: 10px;
+}
+.active-div-article{
+    background-color: #7B63FF;
+}
+.active-div-article p{
+    color: white;
+}
+.active-div-article span{
+    color: white;
+}

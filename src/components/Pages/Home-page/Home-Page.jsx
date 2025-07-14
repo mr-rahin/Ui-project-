@@ -14,70 +14,11 @@ import Nav from '../../Ui/molecules/UL-nav/Nav'
 import SliderMouse from '../../Ui/molecules/acitve-slider/SlideMouse'
 import Icon from '../../Ui/atoms/Icon'
 import H4 from '../../Ui/atoms/H2/H2'
+import PupularSlider from '../../Ui/molecules/Pupular-slider/PupularSlider'
+import { pList, products, LoptopItem, time, Slideritem, itemList, imageList, productsAllWatch } from './ArrayItems'
+import LatestArticles from '../../Ui/molecules/LatestARticle/Lastet'
 function HomePage() {
-    const imageList = [
-        { id: 1, name: 'آیپد مینی ۲۰۲۱ ظرفیت ۶۴ گیگابایت', description: 'Apple Ipad Mini 2021 (wifi)', price: '54/200', discount: '%15', img: '../assets/images/image1.png' },
-        { id: 2, name: 'آیپد مینی ۲۰۲۱ ظرفیت ۶۴ گیگابایت', description: 'Apple Ipad Mini 2021 (wifi)', price: '54/200', discount: '%15', img: '../assets/images/image2.png' },
-        { id: 3, name: 'آیپد مینی ۲۰۲۱ ظرفیت ۶۴ گیگابایت', description: 'Apple Ipad Mini 2021 (wifi)', price: '54/200', discount: '%15', img: '../assets/images/image3.png' }
-    ]
-    const itemList = [
-        { id: 1, name: 'آیپد مینی ۲۰۲۱ ظرفیت ۶۴ گیگابایت' },
-        { id: 2, name: 'آیپد مینی ۲۰۲۱ ظرفیت ۶۴ گیگابایت' },
-        { id: 3, name: 'آیپد مینی ۲۰۲۱ ظرفیت ۶۴ گیگابایت' },
-        { id: 4, name: 'آیپد مینی ۲۰۲۱ ظرفیت ۶۴ گیگابایت' }
-    ]
-    const Slideritem = [
-        { id: 1, name: 'هدفون', svg: 'headphone', svg1: 'headphone1' },
-        { id: 2, name: 'دیتا پروژکتور', svg1: 'data-projector1', svg: 'data-projector' },
-        { id: 3, name: 'کامپیوتر', svg1: 'computer1', svg: 'computer' },
-        { id: 4, name: 'لپ تاپ', svg1: 'LopTop1', svg: 'LopTop' },
-        { id: 5, name: 'دوربین', svg1: 'camera1', svg: 'camera' },
-    ]
-    const time = [
-        'روز',
-        'ساعت',
-        'دقیقه',
-        'ثانیه',
-    ]
-    const LoptopItem = [
-        {
-            id: 1, title: 'مک بوک', value: [
-                { id: 1, title: "مک بوک پرو ۲۰۲۳" },
-                { id: 2, title: "مک بوک ایر ۲۰۲۳" },
-                { id: 3, title: "مک بوک پرو ۲۰۲۰" },
-                { id: 4, title: "مک بوک ایر" },
-            ]
-        }, {
-            id: 2, title: 'آیفون', value: [
-                { id: 1, title: "آیفون ۱۴ پرو مکس" },
-                { id: 2, title: "آیفون ۱۴" },
-                { id: 3, title: "آیفون ۱۳ پرو مکس" },
-                { id: 4, title: "لوازم جانبی آیفون " },
-            ]
-        }, {
-            id: 3, title: 'آی مک', value: [
-                { id: 1, title: "آی مک ۲۰۲۲" },
-                { id: 2, title: "آی مک ۱۶ اینچی" },
-                { id: 3, title: "لوازم جانبی آی مک" },
-                { id: 4, title: "مک مینی" },
-            ]
-        },
 
-    ]
-
-    const products = [
-        { id: 1, name: 'آیپد مینی ۲۰۲۱ ظرفیت ۶۴ گیگابایت', description: 'Apple Ipad Mini 2021 (wifi)', price: '54/200', discount: '%15', img: '../assets/images/image1.png' },
-        { id: 2, name: 'آیپد مینی ۲۰۲۱ ظرفیت ۶۴ گیگابایت', description: 'Apple Ipad Mini 2021 (wifi)', price: '54/200', discount: '%15', img: '../assets/images/Tablet.png' },
-        { id: 3, name: 'آیپد مینی ۲۰۲۱ ظرفیت ۶۴ گیگابایت', description: 'Apple Ipad Mini 2021 (wifi)', price: '54/200', img: '../assets/images/Airpod.png' }
-
-    ]
-    const pList = [
-        { id: 1, title: 'اپل' },
-        { id: 2, title: 'سامسونگ' },
-        { id: 3, title: 'شیائومی' },
-        { id: 4, title: 'هواوی' },
-        { id: 5, title: 'گوگل' },
-    ]
     const [acitve, setActive] = useState(1)
     const [activeP, setActiveP] = useState(3)
     return (
@@ -240,7 +181,7 @@ function HomePage() {
                             <Button style="add-btn">افزودن به سبد خرید</Button>
                         </div>
                     ))}
-                </div>ّ
+                </div>
                 <div className="papular-watch-back">
                     <P style={'yekan'}>ساعت هوشمند</P>
                     {pList.map((item) => (
@@ -273,9 +214,46 @@ function HomePage() {
                     </svg>
 
                 </div>
-
             </div>
+            <div className="pupular-category">
+                <PupularSlider />
+            </div>
+            <div className='grid-box-container'>
+                <div className="grid3">
+                    {productsAllWatch.map((item, index) => (
+                        <div key={index} className="cart3">
+                            {item.discount && (
+                                <>
+                                    <P style={'discount'}>
+                                        <ChangeToFa number={item.discount} />تخفیف
+                                    </P>
+                                </>
+                            )}
+                            <Img src={item.img} className={'img-tablet'} />
+                            <P style={'name'}>{item.name}</P>
+                            <P style="desc">{item.description}</P>
+                            <P style="price"><ChangeToFa number={item.price} />تومان</P>
+                            <Button style="add-btn">افزودن به سبد خرید</Button>
+                        </div>
+                    ))}
+                </div>
 
+                <div className="card5">
+                    <Img src={'../assets/images/image16.png'} />
+                    <div class="discount-text">
+                        <p class="title yekan">تا ۳۰٪ تخفیف</p>
+                        <p class="subtitle yekan">آیفون و آپد</p>
+                    </div>
+                    <svg width="25" height="48" viewBox="0 0 16 39" fill="none" xmlns="http://www.w3.org/2000/svg" >
+                        <path d="M12.1429 2L2.46537 17.4097C1.583 18.8147 1.65958 20.6186 2.65787 21.9438L14 37" stroke="white" stroke-width="3" stroke-linecap="round" />
+                    </svg>
+                    <Img src={'../assets/images/image17.png'}/>
+                </div>
+            </div>
+            <div className='Articl-container'>
+            <P>آخرین مقالات</P>
+            <LatestArticles/>
+            </div>
 
         </>
     )

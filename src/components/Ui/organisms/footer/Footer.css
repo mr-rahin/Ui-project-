@@ -1,0 +1,96 @@
+body {
+  direction: rtl;
+  font-family: "Vazirmatn", sans-serif;
+}
+
+.footer {
+  background: #f9f9f9;
+  padding: 2rem;
+  color: #333;
+}
+
+.footer-top {
+  display: flex;
+  justify-content: space-around;
+  text-align: center;
+  margin-bottom: 2rem;
+}
+
+.feature {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  font-size: 0.9rem;
+}
+
+.feature .icon {
+  font-size: 1.5rem;
+  margin-bottom: 0.5rem;
+}
+
+.footer-main {
+  display: flex;
+  justify-content: space-between;
+  flex-wrap: wrap;
+  gap: 2rem;
+  border-top: 1px solid #ddd;
+  padding-top: 2rem;
+}
+
+.newsletter {
+  flex: 1;
+}
+
+.newsletter input {
+  padding: 0.5rem;
+  border-radius: 0.5rem;
+  border: 1px solid #ccc;
+  margin-top: 0.5rem;
+}
+
+.newsletter button {
+  background: #7b63ff;
+  color: white;
+  border: none;
+  padding: 0.5rem 1rem;
+  margin-top: 0.5rem;
+  border-radius: 0.5rem;
+  cursor: pointer;
+}
+
+.social-icons {
+  margin-top: 1rem;
+  display: flex;
+  gap: 0.5rem;
+}
+
+.footer-links {
+  display: flex;
+  gap: 2rem;
+  flex: 1;
+}
+
+.footer-links h4 {
+  margin-bottom: 0.5rem;
+}
+
+.footer-links ul {
+  list-style: none;
+  padding: 0;
+}
+
+.footer-links li {
+  margin-bottom: 0.3rem;
+  font-size: 0.9rem;
+}
+
+.footer-logo img {
+  max-width: 100px;
+}
+
+.footer-bottom {
+  margin-top: 2rem;
+  text-align: center;
+  font-size: 0.85rem;
+  color: #666;
+}

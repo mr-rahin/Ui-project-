@@ -511,7 +511,7 @@
 .popular-header {
     display: flex;
     justify-content: space-between;
-    width:1400px;
+    width: 1400px;
     position: relative;
     left: 60px;
     align-items: center;
@@ -532,11 +532,13 @@
     cursor: pointer;
 
 }
-.see-all svg{
+
+.see-all svg {
     transition: all 0.3s ease-in-out;
 
 }
-.see-all:hover svg{
+
+.see-all:hover svg {
     transform: translateX(-5px);
 }
 
@@ -598,6 +600,7 @@
     padding: 4px 8px;
     border-radius: 8px;
 }
+
 .grid2 {
     display: flex;
     gap: 40px;
@@ -629,9 +632,10 @@
     object-fit: contain;
     margin: 40px auto 20px;
 }
-.papular-watch-back{
+
+.papular-watch-back {
     position: relative;
-    left:70px;
+    left: 70px;
     top: -540px;
     border-radius: 18px;
     box-shadow: 0 4px 12px rgba(0, 0, 0, 0.08);
@@ -641,30 +645,35 @@
     background-size: cover;
     height: 450px;
 }
-.papular-watch-back p:first-child{
+
+.papular-watch-back p:first-child {
     font-size: 20px;
     position: relative;
     top: 50px;
     height: fit-content;
     left: -150px;
 }
-.papular-watch-back p:nth-child(2){
+
+.papular-watch-back p:nth-child(2) {
     opacity: 0.5;
 }
-.p-opacity{
+
+.p-opacity {
     position: relative;
     top: 58px;
     left: -148px;
     opacity: 0.5;
     cursor: pointer;
 }
-.p-active{
+
+.p-active {
     display: flex;
     gap: 10px;
     align-items: center;
     opacity: 1 !important;
 }
-.ronix-box{
+
+.ronix-box {
     background: linear-gradient(97.62deg, #FF3143 -6.58%, #FF3143 105.37%);
     position: relative;
     top: 2300px;
@@ -673,43 +682,189 @@
     width: 1419px;
     height: 420px;
 }
-.ronix-box img:first-child{
+
+.ronix-box img:first-child {
     width: 200px;
     position: relative;
     left: 20px;
     top: 34px;
 }
-.ronix-box img:nth-child(2){
+
+.ronix-box img:nth-child(2) {
     position: relative;
     left: -60px;
     top: 40px;
     width: 400px;
 }
-.ronix-box img:nth-child(3){
+
+.ronix-box img:nth-child(3) {
     width: 160px;
     position: relative;
     left: -150px;
     top: -80px;
-}.ronix-box svg:nth-child(4){
+}
+
+.ronix-box svg:nth-child(4) {
     position: relative;
     left: 300px;
     top: -150px;
 }
-.most-sell-ronix{
+
+.most-sell-ronix {
     width: fit-content;
     position: relative;
     left: 960px;
     top: -140px;
 
 }
-.most-sell-ronix p:first-child{
+
+.most-sell-ronix p:first-child {
     font-size: 30px;
     color: #FFF;
 }
-.most-sell-ronix svg{
+
+.most-sell-ronix svg {
     transition: all 0.3s ease-in-out;
     cursor: pointer;
 }
-.most-sell-ronix svg:hover{
+
+.most-sell-ronix svg:hover {
     transform: translateX(-5px)
+}
+
+.pupular-category {
+    position: relative;
+    top: 2400px;
+    border-radius: 16px;
+    left: 50px;
+    width: 1420px;
+    height: 500px;
+}
+
+.line-pupular {
+    display: flex;
+    gap: 10px;
+    justify-content: center;
+    position: relative;
+    top: 80px;
+}
+
+.line-pupular div {
+    height: 4px;
+    direction: rtl;
+    width: 80px;
+    border-radius: 20px;
+    background-color: #7B63FF1F;
+}
+
+.active-div {
+    background-color: #7B63FF !important;
+}
+
+.grid3 {
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    gap: 45px;
+    padding: 20px;
+    position: relative;
+    height: fit-content;
+    width: fit-content;
+}
+
+.cart3 {
+    background-color: white;
+    border-radius: 25px;
+    padding: 20px;
+    box-shadow: 0 4px 12px rgba(0, 0, 0, 0.08);
+    text-align: center;
+    font-family: 'Yekan';
+    position: relative;
+    width: 250px;
+}
+
+.cart3 img {
+    width: 200px;
+    height: 200px;
+    object-fit: contain;
+    margin: 40px auto 20px;
+}
+
+.grid-box-container {
+    position: relative;
+    width: fit-content;
+    height: 800px;
+    top: 2300px;
+    left: 26px;
+}
+
+.card5 {
+    width: 397px;
+    height: 950px;
+    background-image: url('../../../../public/assets/images/image15.png');
+    background-repeat: no-repeat;
+    position: relative;
+    border-radius: 26px;
+    background-size: cover;
+    left: 1050px;
+    top: -980px;
+
+}
+.discount-text {
+  direction: rtl;
+  display: flex;
+  flex-direction: column;
+  align-items: start;
+  width: 350px;
+  text-align: center;
+  color: white;
+  font-family: 'Vazir', sans-serif;
+  margin-top: 100px;
+}
+
+.discount-text .title {
+  font-size: 40px;
+  font-weight: bold;
+  margin: 0;
+}
+
+.discount-text .subtitle {
+  font-size: 27px;
+  margin-top: 8px;
+}
+.card5 img:first-child{
+    width: 220px;
+    margin-top: 50px;
+    margin-left: 150px;
+}
+.card5 svg:nth-child(3){
+    position: relative;
+
+    top: -260px;
+    left: 15px !important;
+    cursor: pointer;
+    transition: all 0.3s ease-in-out;
+
+}
+.card5 svg:nth-child(3):hover{
+    transform: translateX(-5px);
+
+}
+.card5 img:last-child{
+    position: relative;
+    top: 203px;
+    left: 72px;
+    width: 300px;
+
+}
+.Articl-container{
+    position: relative;
+    top: 2800px;
+ 
+}
+.Articl-container p:first-child{
+    font-family: 'yekan';
+    font-size: 40px;
+    position: relative;
+    top: -180px;
+    left: 650px;
 }
