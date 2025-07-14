@@ -107,4 +107,18 @@ const articles = [
 
   },
 ];
-export {articles, products, pList, productsAllWatch, LoptopItem, Slideritem, time, itemList, productItem, imageList}
+const footerItems = [
+    {id:1, title:'ارسال سریع', svg:'send'},
+    {id:2, title:'ضمانت اصلالت کالا', svg:'qr-code'},
+    {id:3, title:'پشتیبانی ۲۴ ساعته', svg:'phone'},
+    {id:4, title:'امکان پرداخت در محل', svg:'wallet'},
+]
+const footerIcon = [
+    {id:1, svg:'twiter'},
+    {id:2, svg:'whatsup'},
+    {id:3, svg:'instagram'},
+    {id:4, svg:'telegram'},
+    {id:5 , svg:'aparat'},
+]
+
+export {articles, products, pList, productsAllWatch, LoptopItem, Slideritem, time, itemList, productItem, imageList, footerItems,  footerIcon}

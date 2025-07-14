@@ -22,7 +22,7 @@ function HomePage() {
     const [acitve, setActive] = useState(1)
     const [activeP, setActiveP] = useState(3)
     return (
-        <>
+        <div style={{  height:"1050vh" }}>
             <div className="camera-container">
                 <P style={'maneli camera-p'}>!از هر جایی میتونی چک کنی</P>
                 <P style={'yekan camera-cctv'}>دوربین های مداربسته داهوا</P>
@@ -247,15 +247,15 @@ function HomePage() {
                     <svg width="25" height="48" viewBox="0 0 16 39" fill="none" xmlns="http://www.w3.org/2000/svg" >
                         <path d="M12.1429 2L2.46537 17.4097C1.583 18.8147 1.65958 20.6186 2.65787 21.9438L14 37" stroke="white" stroke-width="3" stroke-linecap="round" />
                     </svg>
-                    <Img src={'../assets/images/image17.png'}/>
+                    <Img src={'../assets/images/image17.png'} />
                 </div>
             </div>
             <div className='Articl-container'>
-            <P>آخرین مقالات</P>
-            <LatestArticles/>
+                <P>آخرین مقالات</P>
+                <LatestArticles />
             </div>
 
-        </>
+        </div>
     )
 }
 export default HomePage

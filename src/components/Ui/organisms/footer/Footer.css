@@ -1,96 +1,179 @@
-body {
-  direction: rtl;
-  font-family: "Vazirmatn", sans-serif;
+.cart-icon {
+    position: absolute;
+    display: flex;
+    justify-content: center;
+    gap: 0px;
+    z-index: 1;
+    align-items: center;
+    font-family: 'Yekan';
+    background-color: white;
+    width: 80%;
+    height: 100px;
+    transform: translateY(-50%);
+
+    border-radius: 20px;
 }
 
-.footer {
-  background: #f9f9f9;
-  padding: 2rem;
-  color: #333;
+.cart-icon p {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 400px;
+    gap: 10px;
+    border-right: 1px solid #EBEBEB;
+    font-size: 25px;
 }
 
-.footer-top {
-  display: flex;
-  justify-content: space-around;
-  text-align: center;
-  margin-bottom: 2rem;
+.cart-icon p:last-child {
+    border-right: none;
+
 }
 
-.feature {
-  display: flex;
-  flex-direction: column;
-  align-items: center;
-  font-size: 0.9rem;
+.footer-cart {
+    width: 100%;
+    height: 300px;
+    z-index: 2;
+    background-color: white;
+    position: relative;
 }
 
-.feature .icon {
-  font-size: 1.5rem;
-  margin-bottom: 0.5rem;
+.footer-cart:first-child {
+    display: flex;
+    justify-content: center;
+}
+
+.footer-copy {
+    font-family: 'Yekan';
+    color: black;
+    direction: rtl;
+    text-align: center;
+    padding: 20px;
 }
 
 .footer-main {
-  display: flex;
-  justify-content: space-between;
-  flex-wrap: wrap;
-  gap: 2rem;
-  border-top: 1px solid #ddd;
-  padding-top: 2rem;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    position: relative;
+    height: fit-content;
+    width: 50%;
+    direction: rtl;
+    top: 70px;
+    left: 400px;
 }
 
-.newsletter {
-  flex: 1;
+.footer-main img:first-child {
+    width: 140px;
 }
 
-.newsletter input {
-  padding: 0.5rem;
-  border-radius: 0.5rem;
-  border: 1px solid #ccc;
-  margin-top: 0.5rem;
+.footer-column {
+    font-family: 'Yekan';
 }
 
-.newsletter button {
-  background: #7b63ff;
-  color: white;
-  border: none;
-  padding: 0.5rem 1rem;
-  margin-top: 0.5rem;
-  border-radius: 0.5rem;
-  cursor: pointer;
+.footer-column p {
+    transition: all 0.3s ease;
+    opacity: 0.5;
+    cursor: pointer;
+    font-size: 18px;
+
 }
 
-.social-icons {
-  margin-top: 1rem;
-  display: flex;
-  gap: 0.5rem;
+.footer-column {
+    font-size: 18px;
+    display: flex;
+    flex-direction: column;
+    gap: 10px;
+
 }
 
-.footer-links {
-  display: flex;
-  gap: 2rem;
-  flex: 1;
+.footer-column h4 {
+    font-size: 20px;
 }
 
-.footer-links h4 {
-  margin-bottom: 0.5rem;
+.footer-column p:hover {
+    opacity: 1;
+    cursor: pointer;
+    font-size: 18px;
 }
 
-.footer-links ul {
-  list-style: none;
-  padding: 0;
+.footer-last-box {
+    font-family: 'Yekan';
+    position: relative;
+    left: -700px;
+    top: 40px;
+    width: fit-content;
 }
 
-.footer-links li {
-  margin-bottom: 0.3rem;
-  font-size: 0.9rem;
+.footer-last-box p {
+    font-size: 20px;
 }
 
-.footer-logo img {
-  max-width: 100px;
+
+
+.subscribe-group p {
+    font-family: 'Yekan';
+    color: black;
+    font-size: 20px;
+    font-weight: bold;
 }
 
-.footer-bottom {
-  margin-top: 2rem;
-  text-align: center;
-  font-size: 0.85rem;
-  color: #666;
+.subscribe-box {
+    display: flex;
+    gap: 20px;
+    flex-direction: column;
+    background-color: white;
+    direction: rtl;
+    position: relative;
+    top: 100px;
+    left: -850px;
+}
+
+.subscribe-box input {
+    padding: 10px;
+    font-family: 'Yekan';
+    border: 1px solid #ccc;
+    border-radius: 8px;
+    margin-left: 10px;
+}
+
+.subscribe-box button {
+    background-color: #6c5ce7;
+    color: white;
+    padding: 10px 20px;
+    border: none;
+    border-radius: 8px;
+    cursor: pointer;
+    font-family: 'Yekan';
+}
+.icon-card{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    width: 50px;
+    height: 50px;
+    border-radius: 15px;
+}
+.footer-last-icon{
+    display: flex;
+    position: relative;
+    top: -70px;
+    left: 150px;
+    cursor: pointer;
+    z-index: 2;
+    gap: 15px;
+}
+.icon-card:first-child{
+    background-color: #459AF80F;
+}
+.icon-card:nth-child(2){
+    background-color: #19AE190F;
+}
+.icon-card:nth-child(3){
+    background-color: #BD69FF0F;
+}
+.icon-card:nth-child(4){
+    background-color: #4FA2FF0F;
+}
+.icon-card:last-child{
+    background-color: #ff00550f;
 }
