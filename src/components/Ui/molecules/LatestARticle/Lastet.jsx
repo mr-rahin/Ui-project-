@@ -16,6 +16,8 @@ export default function LatestArticles() {
                 <div className={`articles-flex ${isActive == item.id ? 'active-div-article' : ''}`} key={item.id} onClick={() => setActive(item.id)}>
                     <div className="articles-img">
                         <img src={item.image} alt={item.title} />
+                        <P>مقاله</P>
+                        <P>{item.tag}</P>
                     </div>
                     <P style="article-title">{item.title}</P>
                     <P style="article-date"><span>{item.day}</span>{item.date}</P>

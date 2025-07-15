@@ -81,10 +81,11 @@ const articles = [
   {
     id: 1,
     title: 'همه چیز درباره تولید محتوا وبسایت، معرفی ۶ اصل مهم.',
-    tag: 'مقاله',
+    tag: 'تولید محتوا',
     image: '../assets/images/image18.png',
     date: ' خرداد ۱۴۰۳',
     day:'۲۲'
+
 
   },
   {
@@ -100,7 +101,7 @@ const articles = [
   {
     id: 3,
     title: 'آپدیت جدید اینستاگرام منتشر شد معرفی قابلیت‌ های اینستاگرام.',
-    tag: 'مقاله',
+    tag: 'اینستاگرام',
     image: '../assets/images/image20.png',
     date: ' خرداد ۱۴۰۳',
     day:'۲۲'

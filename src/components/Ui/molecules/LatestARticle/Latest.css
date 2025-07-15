@@ -31,6 +31,32 @@
   height: auto;
   border-radius: 8px;
 }
+.articles-img p:nth-child(2) {
+    position: relative;
+    top: -380px;
+    left: -20px;
+    background-color: #0000004A;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 80px;
+    height: 28px;
+    border-radius: 15px;
+    color: #FFF;
+}
+.articles-img p:nth-child(3) {
+    position: relative;
+    top: -407px;
+    left: -110px;
+    background-color: #0000004A;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 100px;
+    height: 28px;
+    border-radius: 15px;
+    color: #FFF;
+}
 
 .article-title {
   font-weight: bold;
