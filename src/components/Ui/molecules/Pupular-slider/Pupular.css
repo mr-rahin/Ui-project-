@@ -3,6 +3,7 @@
     display: flex;
     justify-content: space-between;
     align-items: center;
+    width: 1400px;
 }
 .pupular-nav p{
     font-size: 25px;
@@ -15,12 +16,12 @@
     border: none;
 }
 .product-card{
-    width: 415px !important;
+    width: 404px !important;
     height: 170px;
     display: flex ;
     justify-content: space-between;
     position: relative;
-    left: 0px;
+    left: 20px;
     top: 30px;
     direction: ltr;
 

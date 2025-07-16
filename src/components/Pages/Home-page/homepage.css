@@ -449,7 +449,7 @@
     top: 1580px;
     border-radius: 17px;
     left: 840px;
-    width: 610px;
+    width: 600px;
     height: 400px;
     transition: all 0.3s ease-in-out;
 
@@ -493,7 +493,7 @@
 .smart-box img:last-child {
     position: relative;
     top: 65px;
-    left: 260px;
+    left: 250px;
     width: 250px;
 }
 
@@ -511,9 +511,9 @@
 .popular-header {
     display: flex;
     justify-content: space-between;
-    width: 1400px;
+    width: 1370px;
     position: relative;
-    left: 60px;
+    left: 28px;
     align-items: center;
     margin-bottom: 30px;
 }
@@ -635,11 +635,11 @@
 
 .papular-watch-back {
     position: relative;
-    left: 70px;
-    top: -540px;
+    left: 40px;
+    top: -530px;
     border-radius: 18px;
     box-shadow: 0 4px 12px rgba(0, 0, 0, 0.08);
-    width: 330px;
+    width: 300px;
     background-image: url('../../../../public/assets/images/bacjground.png');
     background-repeat: no-repeat;
     background-size: cover;
@@ -679,7 +679,7 @@
     top: 2300px;
     left: 49px;
     border-radius: 20px;
-    width: 1419px;
+    width: 1400px;
     height: 420px;
 }
 
@@ -798,7 +798,7 @@
 }
 
 .card5 {
-    width: 397px;
+    width: 387px;
     height: 950px;
     background-image: url('../../../../public/assets/images/image15.png');
     background-repeat: no-repeat;
@@ -852,7 +852,7 @@
 .card5 img:last-child{
     position: relative;
     top: 203px;
-    left: 72px;
+    left: 62px;
     width: 300px;
 
 }
