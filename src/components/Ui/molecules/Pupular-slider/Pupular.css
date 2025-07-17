@@ -3,7 +3,9 @@
     display: flex;
     justify-content: space-between;
     align-items: center;
-    width: 1400px;
+    width: 1374px;
+    position: relative;
+    left: 28px;
 }
 .pupular-nav p{
     font-size: 25px;

@@ -67,7 +67,10 @@
   /* justify-content: space-between; */
 
 }
-
+.sign-container svg{
+    position: relative;
+    top: 10px;
+}
 .sign-in-sign-up {
   display: flex;
   align-items: center;
@@ -185,6 +188,7 @@
 
 .ctegorization-select {
   display: flex;
+  direction: rtl;
   justify-content: space-between;
   position: absolute;
   top: 241px;
@@ -223,7 +227,7 @@
   gap: 60px;
   display: flex;
   align-items: center;
-  justify-content: center;
+  justify-content: space-between;
 
 }
 .rotate{

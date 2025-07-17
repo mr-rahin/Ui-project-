@@ -94,7 +94,7 @@ function Icon({ action }) {
             </svg>
         case 'line':
             return <svg width="4" height="32" viewBox="0 0 4 32" fill="none" xmlns="http://www.w3.org/2000/svg">
-                <path d="M2 2L2 30" stroke="white" stroke-width="3" stroke-linecap="round" />
+                <path d="M2 2L2 30" stroke="white" strokeWidth="3" stroke-linecap="round" />
             </svg>
         case 'left-arrow':
             return <svg width="6" height="9" viewBox="0 0 6 9" fill="none" xmlns="http://www.w3.org/2000/svg">
@@ -127,7 +127,7 @@ function Icon({ action }) {
             </svg>
         case 'phone':
             return <svg width="34" height="34" viewBox="0 0 34 34" fill="none" xmlns="http://www.w3.org/2000/svg">
-                <path fill-rule="evenodd" clip-rule="evenodd" d="M16.02 17.865C23.0047 24.8478 24.5892 16.7695 29.0364 21.2136C33.3238 25.4998 35.788 26.3586 30.3559 31.7892C29.6755 32.336 25.3523 38.9148 10.1593 23.7259C-5.03563 8.53524 1.53931 4.20766 2.08628 3.52742C7.53157 -1.91823 8.37552 0.560314 12.663 4.84656C17.1102 9.29252 9.03528 10.8822 16.02 17.865Z" fill="#7B63FF" />
+                <path fillRule="evenodd" clipRule="evenodd" d="M16.02 17.865C23.0047 24.8478 24.5892 16.7695 29.0364 21.2136C33.3238 25.4998 35.788 26.3586 30.3559 31.7892C29.6755 32.336 25.3523 38.9148 10.1593 23.7259C-5.03563 8.53524 1.53931 4.20766 2.08628 3.52742C7.53157 -1.91823 8.37552 0.560314 12.663 4.84656C17.1102 9.29252 9.03528 10.8822 16.02 17.865Z" fill="#7B63FF" />
             </svg>
         case 'wallet':
             return <svg width="36" height="32" viewBox="0 0 36 32" fill="none" xmlns="http://www.w3.org/2000/svg">

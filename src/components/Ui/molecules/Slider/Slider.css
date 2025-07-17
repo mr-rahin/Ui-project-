@@ -1,41 +1,61 @@
+@font-face {
+  font-family: 'Yekan';
+  src: url('../../../../../public/assets/Font/Yekan-Font-3.0/Yekan.eot');
+  src: url('../../../../../public/assets/Font/Yekan-Font-3.0/Yekan.eot?#iefix') format('embedded-opentype'),
+    url('../../../../../public/assets/Font/Yekan-Font-3.0/Yekan.woff2') format('woff2'),
+    url('../../../../../public/assets/Font/Yekan-Font-3.0/Yekan.woff') format('woff'),
+    url('../../../../../public/assets/Font/Yekan-Font-3.0/Yekan.otf') format('opentype'),
+    url('../../../../../public/assets/Font/Yekan-Font-3.0/Yekan.ttf') format('truetype');
+  font-weight: normal;
+  font-style: normal;
+  font-display: swap;
+}
 
-  @font-face {
-    font-family: 'Yekan';
-    src: url('../../../../../public/assets/Font/Yekan-Font-3.0/Yekan.eot');
-    src: url('../../../../../public/assets/Font/Yekan-Font-3.0/Yekan.eot?#iefix') format('embedded-opentype'),
-      url('../../../../../public/assets/Font/Yekan-Font-3.0/Yekan.woff2') format('woff2'),
-      url('../../../../../public/assets/Font/Yekan-Font-3.0/Yekan.woff') format('woff'),
-      url('../../../../../public/assets/Font/Yekan-Font-3.0/Yekan.otf') format('opentype'),
-      url('../../../../../public/assets/Font/Yekan-Font-3.0/Yekan.ttf') format('truetype');
-    font-weight: normal;
-    font-style: normal;
-    font-display: swap;
-  }
-.slide-cart-icon{
-width: 85px;
-height: 80px;
-background-color: #FFFF;
-opacity: 1;
-border-radius: 12.65px;
-display: flex;
-align-items: center;
-justify-content: center;
-/* border: 1px solid black; */
+.slide-cart-icon {
+  width: 85px;
+  height: 80px;
+  background-color: #FFFF;
+  opacity: 1;
+  border-radius: 12.65px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  /* border: 1px solid black; */
 
 }
-.slide-cart{  
-width: 88px;
-height: 122px;
+
+.slide-cart-icon1 {
+  width: 120px;
+  height: 120px;
+  background-color: #FFFF;
+  opacity: 1;
+  border-radius: 12.65px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  /* border: 1px solid black; */
 
 }
-.slide-cart p{
-      font-family: 'Yekan';
-      font-size: 11px;
-      display: flex;
-      justify-content: center;
-      margin-top: 10px;
+
+.slide-cart {
+  width: fit-content;
+  display: flex;
+  justify-content: center;
+  flex-direction: column;
+  align-items: center;
+  height: 122px;
 
 }
-.svg{
+
+.slide-cart p {
+  font-family: 'Yekan';
+  font-size: 11px;
+  display: flex;
+  justify-content: center;
+  margin-top: 10px;
+
+}
+
+.svg {
   cursor: pointer;
 }

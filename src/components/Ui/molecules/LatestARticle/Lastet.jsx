@@ -30,8 +30,6 @@ export default function LatestArticles() {
                         <Icon action={`${isActive == item.id ? 'chat1' : 'chat'}`}/>
                         </div>
                        <Icon action={`${isActive == item.id ? 'arrow-left-article1' : 'arrow-left-article'}`}/>
-
-
                     </div>
                 </div>
             ))}

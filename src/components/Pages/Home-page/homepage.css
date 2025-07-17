@@ -112,6 +112,8 @@
 
 .advice {
     height: 46px;
+    position: relative;
+    top: -20px;
 }
 
 
@@ -711,6 +713,9 @@
 }
 
 .most-sell-ronix {
+    display: flex;
+    flex-direction: column;
+    gap: 13px;
     width: fit-content;
     position: relative;
     left: 960px;

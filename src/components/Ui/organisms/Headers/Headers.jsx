@@ -8,12 +8,13 @@ import SearchSelect from '../../molecules/Serach-select/SearchSelect';
 import "@fontsource/inter";
 import "@fontsource/inter/400.css";
 import "@fontsource/inter/400-italic.css";
-import { useState } from 'react';
+import { use, useState } from 'react';
 import { Link } from 'react-router-dom';
 import Slider from '../../molecules/Slider/Slider';
 
 
 function Headers() {
+    const [like, setLike] = useState(false)
     return (
         <header>
             <section>
@@ -44,14 +45,16 @@ function Headers() {
                     <div className="sign-in-sign-up">
                         <Button style='yekan-bakh'><span>ورود/ثبت نام</span><Img src='./assets/Icon/Group 9.svg' className={'profile'} /></Button>
                     </div>
-                    <Img src='./assets/Icon/Heart.svg' />
+                    <svg width="23" height="22" viewBox="0 0 23 22" fill="red" xmlns="http://www.w3.org/2000/svg" onClick={() => setLike(!like)} style={{cursor:"pointer"}}>
+                        <path fill-rule="evenodd" clip-rule="evenodd" d="M11.2543 1.37559C13.0158 0.261923 15.3558 -0.0457441 17.3773 0.602089C21.7745 2.02017 23.1395 6.81392 21.9186 10.6283C20.0347 16.6192 11.9888 21.0879 11.6475 21.2753C11.5262 21.3425 11.3918 21.3761 11.2575 21.3761C11.1232 21.3761 10.9899 21.3436 10.8686 21.2775C10.5295 21.0923 2.54208 16.6896 0.595335 10.6294L0.594252 10.6283C-0.627749 6.81284 0.732918 2.01801 5.12583 0.602089C7.1885 -0.0652441 9.43642 0.228339 11.2543 1.37559ZM5.62417 2.14909C2.06975 3.29526 1.17708 7.11834 2.14233 10.1333C3.66117 14.8588 9.66175 18.6797 11.2564 19.6254C12.8565 18.6699 18.9004 14.8068 20.3705 10.1376C21.3358 7.11942 20.4398 3.29634 16.88 2.14909C15.1553 1.59551 13.1436 1.93242 11.7548 3.00709C11.4644 3.23026 11.0614 3.23459 10.7689 3.01359C9.29775 1.90751 7.37592 1.58359 5.62417 2.14909ZM15.84 4.30048C17.3166 4.77823 18.3512 6.08581 18.4779 7.63173C18.5137 8.07915 18.1811 8.47131 17.7337 8.50706C17.7109 8.50923 17.6893 8.51031 17.6665 8.51031C17.2473 8.51031 16.8919 8.18856 16.8573 7.7639C16.7858 6.8734 16.1899 6.12156 15.3417 5.84748C14.9138 5.70881 14.6798 5.25056 14.8173 4.82481C14.9571 4.39798 15.411 4.16615 15.84 4.30048Z" fill={`${like ? 'red' : '#A5A5A5'}`} />
+                    </svg>
                 </div>
                 <div className='search-container'>
                     <div className='search-icon'>
                         <Img src={'./assets/Icon/Search.svg'} />
                     </div>
 
-                    <CheckLun placeHolder={'محصول مورد نظر را جستجو کنید'}  type={'text'}/>
+                    <CheckLun placeHolder={'محصول مورد نظر را جستجو کنید'} type={'text'} />
 
                     <div className='line'></div>
 
@@ -84,19 +87,19 @@ function Headers() {
                     <Link className='ctegorization-link'>
                         <P>فروشگاه</P>
                     </Link>
-                    <Link  className='ctegorization-link'>
+                    <Link className='ctegorization-link'>
                         <P>سوالات متداول</P>
                     </Link>
                 </div>
-            </section>  
+            </section>
             <div className='line-hr2' ></div>
             <div className='header-slidebar'>
-                
-                <Slider/>
-               
+            
+                <Slider />
+
             </div>
         </header>
-        
+
 
     );
 }

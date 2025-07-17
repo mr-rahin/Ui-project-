@@ -12,7 +12,7 @@ function PupularSlider() {
         {id:0,title:'انواع پاورفین' , discount:'30%', image:'../assets/images/image13.png'}
     ]
     const slider = [0, 1, 2,]
-    const [slide, setSlide] = useState(1)
+    const [slide, setSlide] = useState(2)
     console.log(slide);
     
     console.log(slide);
@@ -25,7 +25,7 @@ function PupularSlider() {
         setSlide((prev) => (prev - 1 + slider.length) % slider.length);
         
     }
-    function nextHandler() {
+    function nextHandler() {    
         setSlide((prev) => (prev + 1) % slider.length);
      
     }

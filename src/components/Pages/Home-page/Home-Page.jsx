@@ -20,7 +20,7 @@ import LatestArticles from '../../Ui/molecules/LatestARticle/Lastet'
 function HomePage() {
 
     const [acitve, setActive] = useState(1)
-    const [activeP, setActiveP] = useState(3)
+    const [activeP, setActiveP] = useState(2)
     return (
         <div style={{  height:"1050vh" }}>
             <div className="camera-container">
